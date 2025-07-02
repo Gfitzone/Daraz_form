@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Customers address</title>
+    <style type="text/css">
+          	body{
+          		height:100%;
+          overflow-y: scroll; /*scrolling allow garna ko lagi*/
+          height: 1200px;
+          background-color: rgb(213, 96, 12);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          	}
+          	.secondform{
+          		display: flex;
+          height: 870px;
+          width:300px;*
+          /*position: fixed;*/
+          top: 50px;
+          margin-top: 100px;
+          background-color: rgb(250, 234, 234);
+          padding: 30px;
+          border-radius: 12px;
+          	}
+
+
+          	.logo{
+          		position: absolute;
+          top: 10px;
+             height: 85px;
+          width: 175px;
+          border-radius: 24px;
+          	}
+      .link{
+      	text-decoration: none;
+      justify-content: center;
+      display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Daraz-Logo.jpg" class="logo" />
+    <h2 style="position: absolute; top: 108px; color: white">
+      Customer Address
+    </h2>
+    <div class="secondform">
+      <form>
+        <label>customers ID *</label><br />
+        <input type="text" name="id" style="width: 300px" /><br /><br />
+        <label>Is Recipient name same?</label>
+        <select style="width: 300px">
+          <option>yes</option>
+          <option>No</option></select
+        ><br /><br />
+        <label>Company (optional)</label><br />
+        <input type="text" name="cname" style="width: 300px" /><br /><br />
+        <label>Street line 1*</label><br />
+        <input
+          type="Number"
+          name="Streetline1"
+          style="width: 300px"
+        /><br /><br />
+        <label>Street line 2</label><br />
+        <input
+          type="number"
+          name="streetline 2"
+          style="width: 300px"
+        /><br /><br />
+        <label>Ward number*</label><br />
+        <input type="number" name="ward-no" style="width: 300px" /><br /><br />
+        <label>City*</label><br />
+        <input type="name" name="city" style="width: 300px" /><br /><br />
+        <label>State/Province*</label><br />
+        <input type="text" name="State" style="width: 300px" /><br /><br />
+        <label>Postal Code*</label><br />
+        <input
+          type="number"
+          name="postal-code"
+          style="width: 300px"
+        /><br /><br />
+        <label>Country*</label><br />
+        <input type="text" name="country" style="width: 300px" /><br /><br />
+        <label>Latitude</label><br />
+        <input type="text" name="latitude" style="width: 300px" /><br /><br />
+        <label>Longitude</label><br />
+        <input type="text" name="longitude" style="width: 300px" /><br /><br />
+        <label>Tax ID</label><br />
+        <input type="number" name="tax-id" style="width: 300px" /><br /><br />
+
+        <input type="checkbox" name="default shipping" />Default Shipping
+        Address<br /><br />
+
+        <input type="checkbox" name="default billing" />Default Billing
+        Address<br /><br />
+        <input
+          type="submit"
+          value="Register"
+          style="width: 300px; background-color: green; color: white"
+        />
+        <br /><br />
+        <a href="indexx.html"class="link"
+          >Back to the customers form</a
+        >
+      </form>
+    </div>
+  </body>
+</html>
